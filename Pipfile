@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = ">=3.0.3,<4.0.0"
+pytest-flask = ">=0.10.0,<1.0.0"
+mock = ">=2.0.0"
+
+[packages]
+cdislogging = {editable = true,git = "https://git@github.com/fantix/cdislogging.git",ref = "0.1.0"}
+cdiserrors = {editable = true,git = "https://git@github.com/fantix/cdiserrors.git",ref = "0.2.0"}
+cdispyutils = {editable = true,path = "."}
+
+[requires]
+python_version = "2.7"

@@ -7,16 +7,13 @@ setup(
     license="Apache",
     install_requires=[
         "cryptography>=2.1.2",
-        "PyJWT==1.5.3",
+        "PyJWT>=1.5.3",
         'requests>=2.5.2,<3.0.0',
-        "six==1.11.0",
+        "six>=1.11.0",
         "Werkzeug>=0.9.6,<1.0.0",
         "matplotlib>=2.2.3,<3.0.0",
         "numpy>=1.15.4,<2.0.0",
-        "cdiserrors",
-    ],
-    dependency_links=[
-        "git+https://git@github.com/uc-cdis/cdiserrors.git@0.1.1#egg=cdiserrors",
+        "cdiserrors>=0.2.0",
     ],
     packages=find_packages(),
 )

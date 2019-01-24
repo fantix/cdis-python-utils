@@ -8,9 +8,7 @@ cache:
   pip: true
 
 install:
-  - pip install -r requirements.txt
-  - python setup.py develop
-  - pip install -r dev-requirements.txt
+  - pip install pipenv
+  - pipenv install --dev
 
-script:
-  - "PYTHONPATH=. py.test -vv test/"
+script: "py.test -vv test/"
