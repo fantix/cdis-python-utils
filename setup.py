@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cdispyutils",
-    version="0.2.0",
+    version="0.3.0",
     description="General utilities for Gen3 development",
     license="Apache",
     install_requires=[
